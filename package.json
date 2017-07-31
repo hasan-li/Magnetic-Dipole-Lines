@@ -1,0 +1,15 @@
+{
+  "name": "hasan",
+  "version": "1.0.0",
+  "description": "BA Thesis",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hasan-li",
+  "license": "ISC"
+}
