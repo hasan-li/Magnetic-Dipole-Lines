@@ -140,15 +140,15 @@ console.log( rungeKutta4(1.0, 0.0, 0.2, sRoot) )
 
 
 
-function rungeKutta4(y, x, dx, sRoot) {
-    let k1 = dx * sRoot(x, y),
-        k2 = dx * sRoot(x + dx / 2.0,   y + k1 / 2.0),
-        k3 = dx * sRoot(x + dx / 2.0,   y + k2 / 2.0),
-        k4 = dx * sRoot(x + dx,         y + k3);
-
-    return y + (k1 + 2.0 * k2 + 2.0 * k3 + k4) / 6.0;
-}
-
-function sRoot(x, y) {
-    return x * Math.sqrt(y);
-}
+// function rungeKutta4(y, x, dx, sRoot) {
+//     let k1 = dx * sRoot(x, y),
+//         k2 = dx * sRoot(x + dx / 2.0,   y + k1 / 2.0),
+//         k3 = dx * sRoot(x + dx / 2.0,   y + k2 / 2.0),
+//         k4 = dx * sRoot(x + dx,         y + k3);
+//
+//     return y + (k1 + 2.0 * k2 + 2.0 * k3 + k4) / 6.0;
+// }
+//
+// function sRoot(x, y) {
+//     return x * Math.sqrt(y);
+// }
